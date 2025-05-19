@@ -29,8 +29,6 @@
     ➡️
   </button>
 </div>
-
-
     <div id="turn-feedback" class="hidden">
       <h2 id="turn-message"></h2>
       <button onclick="continueGame()">Avanti</button>
@@ -46,5 +44,13 @@
 
   <script src="data.js"></script>
   <script src="guess.js"></script>
+  <script>
+    document.getElementById("year-input").addEventListener("keydown", function(event) {
+      if (event.key === "Enter") {
+        event.preventDefault(); // Previene comportamenti indesiderati
+        submitGuess(); // Chiama la stessa funzione della freccia
+      }
+    });
+  </script>
 </body>
 </html>

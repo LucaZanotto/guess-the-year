@@ -99,3 +99,37 @@ input[type="number"] {
   margin-top: 0.5rem;
   color: #2c7a2c;
 }
+
+#game-rules {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#game-rules h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+#game-rules h3 {
+  margin-top: 20px;
+  color: #333;
+}
+
+#game-rules ul {
+  padding-left: 20px;
+  line-height: 1.6;
+}
+
+/* Nasconde spinner in Chrome, Safari, Edge */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Nasconde spinner in Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
