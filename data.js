@@ -376,5 +376,306 @@ const data = [
     year: 1498,
     description: "Inventato in Cina con setole di maiale.",
     image: "images/spazzolino.jpg"
+  },
+  {
+    name: "Confucio",
+    year: -551,
+    description: "Filosofo cinese, le cui idee etiche e politiche plasmarono per secoli l'Asia orientale.",
+    image: "images/confucio.jpg"
+  },
+  {
+    name: "Aristotele",
+    year: -384,
+    description: "Filosofo greco, allievo di Platone e maestro di Alessandro Magno; fondatore del liceo di Atene.",
+    image: "images/aristotele.jpg"
+  },
+  {
+    name: "Alessandro Magno",
+    year: -356,
+    description: "Condottiero macedone che creò uno dei più vasti imperi del mondo antico.",
+    image: "images/alessandro_magno.jpg"
+  },
+  {
+    name: "Giulio Cesare",
+    year: -100,
+    description: "Generale e statista romano, preparò la trasformazione di Roma da repubblica a impero.",
+    image: "images/giulio_cesare.jpg"
+  },
+  {
+    name: "Cleopatra VII",
+    year: -69,
+    description: "Ultima regina dell’Egitto tolemaico, celebre per acume politico e alleanze con Roma.",
+    image: "images/cleopatra.jpg"
+  },
+  {
+    name: "Boudica",
+    year: 25,
+    description: "Regina degli Iceni, guidò la rivolta contro il dominio romano in Britannia.",
+    image: "images/boudica.webp"
+  },
+  {
+    name: "Marco Aurelio",
+    year: 121,
+    description: "Imperatore romano e filosofo stoico, autore dei \"Colloqui con sé stesso\".",
+    image: "images/marco_aurelio.jpg"
+  },
+  {
+    name: "Carlo Magno",
+    year: 742,
+    description: "Re dei Franchi e primo Imperatore del Sacro Romano Impero, promotore della rinascita carolingia.",
+    image: "images/carlo_magno.jpg"
+  },
+  {
+    name: "Guglielmo il Conquistatore",
+    year: 1028,
+    description: "Duca di Normandia che conquistò l’Inghilterra nel 1066, cambiandone per sempre la storia.",
+    image: "images/guglielmo_conquistatore.jpg"
+  },
+  {
+    name: "Eleonora d’Aquitania",
+    year: 1122,
+    description: "Una delle donne più influenti del Medioevo, regina di Francia e poi d’Inghilterra.",
+    image: "images/eleonora_aquitania.jpg"
+  },
+  {
+    name: "Gengis Khan",
+    year: 1162,
+    description: "Fondatore dell’Impero mongolo, creò il più vasto dominio contiguo della storia.",
+    image: "images/gengis_khan.jpg"
+  },
+  {
+    name: "Dante Alighieri",
+    year: 1265,
+    description: "Poeta fiorentino, autore della \"Divina Commedia\", pilastro della lingua italiana.",
+    image: "images/dante.webp"
+  },
+  {
+    name: "Giovanna d’Arco",
+    year: 1412,
+    description: "Eroina francese della guerra dei Cent’anni, venerata come santa.",
+    image: "images/giovanna_darco.jpg"
+  },
+  {
+    name: "Leonardo da Vinci",
+    year: 1452,
+    description: "Artista e inventore rinascimentale, simbolo del genio universale.",
+    image: "images/leonardo.jpg"
+  },
+  {
+    name: "Michelangelo Buonarroti",
+    year: 1475,
+    description: "Scultore, pittore e architetto, autore del David e della Cappella Sistina.",
+    image: "images/michelangelo.jpg"
+  },
+  {
+    name: "Martin Lutero",
+    year: 1483,
+    description: "Teologo tedesco, iniziatore della Riforma protestante con le 95 tesi.",
+    image: "images/martin_lutero.jpg"
+  },
+  {
+    name: "Suleiman il Magnifico",
+    year: 1494,
+    description: "Sultano ottomano al culmine del potere imperiale, promotore di riforme giuridiche.",
+    image: "images/suleiman.jpg"
+  },
+  {
+    name: "Galileo Galilei",
+    year: 1564,
+    description: "Padre della scienza moderna, sostenitore dell’eliocentrismo con osservazioni telescopiche.",
+    image: "images/galileo.jpg"
+  },
+  {
+    name: "Isaac Newton",
+    year: 1643,
+    description: "Fisico inglese, formulò le leggi della gravitazione universale e del moto.",
+    image: "images/newton.jpg"
+  },
+  {
+    name: "Pietro il Grande",
+    year: 1672,
+    description: "Zar che modernizzò la Russia, fondò San Pietroburgo e ampliò i confini imperiali.",
+    image: "images/pietro_grande.jpg"
+  },
+  {
+    name: "Voltaire",
+    year: 1694,
+    description: "Filosofo illuminista francese, difensore della tolleranza e della libertà di pensiero.",
+    image: "images/voltaire.jpg"
+  },
+  {
+    name: "Caterina II di Russia",
+    year: 1729,
+    description: "Imperatrice illuminata, estese e riformò l’Impero russo nel XVIII secolo.",
+    image: "images/caterina_grande.jpg"
+  },
+  {
+    name: "George Washington",
+    year: 1732,
+    description: "Comandante della rivoluzione americana e primo presidente degli Stati Uniti.",
+    image: "images/george_washington.jpg"
+  },
+  {
+    name: "Wolfgang Amadeus Mozart",
+    year: 1756,
+    description: "Compositore austriaco, prodigio della musica classico-viennese.",
+    image: "images/mozart.jpg"
+  },
+  {
+    name: "Napoleone Bonaparte",
+    year: 1769,
+    description: "Generale corso che divenne imperatore, protagonista delle guerre napoleoniche.",
+    image: "images/napoleone.jpg"
+  },
+  {
+    name: "Jane Austen",
+    year: 1775,
+    description: "Scrittrice inglese, autrice di romanzi realistici come \"Orgoglio e pregiudizio\".",
+    image: "images/jane_austen.jpg"
+  },
+  {
+    name: "Abraham Lincoln",
+    year: 1809,
+    description: "16° presidente USA, guidò il Paese durante la guerra civile e abolì la schiavitù.",
+    image: "images/lincoln.jpg"
+  },
+  {
+    name: "Ada Lovelace",
+    year: 1815,
+    description: "Matematica inglese, considerata la prima programmatrice di computer.",
+    image: "images/ada_lovelace.jpg"
+  },
+  {
+    name: "Florence Nightingale",
+    year: 1820,
+    description: "Fondatrice dell’infermieristica moderna, rivoluzionò l’assistenza sanitaria.",
+    image: "images/florence_nightingale.jpg"
+  },
+  {
+    name: "Nikola Tesla",
+    year: 1856,
+    description: "Inventore serbo-statunitense, pioniere della corrente alternata e di numerose innovazioni elettriche.",
+    image: "images/tesla.jpg"
+  },
+  {
+    name: "Marie Curie",
+    year: 1867,
+    description: "Fisica e chimica, prima donna a vincere un Nobel e l’unica a vincerne due in discipline diverse.",
+    image: "images/marie_curie.jpg"
+  },
+  {
+    name: "Mahatma Gandhi",
+    year: 1869,
+    description: "Leader del movimento indipendentista indiano, simbolo della nonviolenza.",
+    image: "images/gandhi.jpg"
+  },
+  {
+    name: "Albert Einstein",
+    year: 1879,
+    description: "Fisico teorico tedesco, noto per la teoria della relatività e il premio Nobel per l’effetto fotoelettrico.",
+    image: "images/einstein.jpg"
+  },
+  {
+    name: "Virginia Woolf",
+    year: 1882,
+    description: "Scrittrice e saggista britannica, figura centrale del modernismo letterario.",
+    image: "images/virginia_woolf.jpg"
+  },
+  {
+    name: "Winston Churchill",
+    year: 1874,
+    description: "Primo ministro britannico durante la Seconda guerra mondiale, noto per la sua oratoria.",
+    image: "images/churchill.jpg"
+  },
+  {
+    name: "Pablo Picasso",
+    year: 1881,
+    description: "Pittore spagnolo, cofondatore del cubismo e rivoluzionario dell’arte del XX secolo.",
+    image: "images/picasso.jpg"
+  },
+  {
+    name: "Franklin D. Roosevelt",
+    year: 1882,
+    description: "Presidente degli Stati Uniti durante la Grande Depressione e la Seconda guerra mondiale.",
+    image: "images/roosevelt.jpg"
+  },
+  {
+    name: "Anna Frank",
+    year: 1929,
+    description: "Giovane ebrea tedesca il cui diario è divenuto simbolo della persecuzione nazista.",
+    image: "images/anna_frank.jpg"
+  },
+  {
+    name: "Alan Turing",
+    year: 1912,
+    description: "Matematico e pioniere dell’informatica, contribuì alla decifrazione di Enigma.",
+    image: "images/alan_turing.jpg"
+  },
+  {
+    name: "Rosa Parks",
+    year: 1913,
+    description: "Attivista afroamericana, figura centrale nella lotta per i diritti civili negli USA.",
+    image: "images/rosa_parks.jpg"
+  },
+  {
+    name: "Nelson Mandela",
+    year: 1918,
+    description: "Leader sudafricano contro l’apartheid e primo presidente nero del Sudafrica.",
+    image: "images/mandela.jpg"
+  },
+  {
+    name: "John F. Kennedy",
+    year: 1917,
+    description: "35º presidente degli Stati Uniti, simbolo di una nuova generazione di leader.",
+    image: "images/kennedy.jpg"
+  },
+  {
+    name: "Yuri Gagarin",
+    year: 1934,
+    description: "Cosmonauta sovietico, primo uomo nello spazio nel 1961.",
+    image: "images/gagarin.jpg"
+  },
+  {
+    name: "Martin Luther King Jr.",
+    year: 1929,
+    description: "Guida del movimento per i diritti civili negli Stati Uniti, premio Nobel per la pace.",
+    image: "images/mlk.jpg"
+  },
+  {
+    name: "Stephen Hawking",
+    year: 1942,
+    description: "Fisico teorico, noto per i suoi studi sui buchi neri e la cosmologia.",
+    image: "images/hawking.jpg"
+  },
+  {
+    name: "Margaret Thatcher",
+    year: 1925,
+    description: "Prima donna a diventare primo ministro del Regno Unito, soprannominata 'la Lady di Ferro'.",
+    image: "images/thatcher.jpg"
+  },
+  {
+    name: "Malala Yousafzai",
+    year: 1997,
+    description: "Attivista pakistana per l’istruzione femminile, la più giovane vincitrice del premio Nobel per la pace.",
+    image: "images/malala.jpg"
+  },
+  {
+    name: "Barack Obama",
+    year: 1961,
+    description: "44º presidente degli Stati Uniti, primo afroamericano a ricoprire la carica.",
+    image: "images/obama.webp"
+  },
+  {
+    name: "Elon Musk",
+    year: 1971,
+    description: "Imprenditore e innovatore sudafricano-statunitense, fondatore di SpaceX, Tesla e cofondatore di Neuralink.",
+    image: "images/elon_musk.jpg"
+  },
+  {
+    name: "Greta Thunberg",
+    year: 2003,
+    description: "Attivista svedese per il clima, simbolo della mobilitazione giovanile contro il cambiamento climatico.",
+    image: "images/greta_thunberg.jpg"
   }
+
 ];
