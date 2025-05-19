@@ -9,17 +9,73 @@
 <body>
   <div class="container">
 
+    <!-- Modalità gioco -->
     <div id="compare-mode">
       <h2>Quale è più recente?</h2>
       <div id="compare-cards"></div>
       <p id="compare-score">Punteggio: 0</p>
     </div>
 
-    <div id="game-over" class="hidden">
-      <h2>Hai perso!</h2>
-      <button onclick="restartGame()">Ricominica</button>
-      <a href="index.html"><button>Cambia modalità</button></a>
+    <!-- Schermata Game Over -->
+    <div id="game-over" class="hidden" style="
+      position: fixed;
+      top: 0; left: 0;
+      width: 100vw; height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: white;
+      z-index: 10;
+    ">
+
+      <!-- GIF di sfondo -->
+      <div id="game-over-bg" style="
+        position: absolute;
+        top: 0; left: 0;
+        width: 100%;
+        height: 100%;
+        background: url('gif/gif.gif') no-repeat center center;
+        background-size: contain;
+        filter: brightness(0.5);
+        z-index: -1;
+      "></div>
+
+      <!-- Contenuto Game Over -->
+      <div id="game-over-content" style="
+        background: rgba(0, 0, 0, 0.6);
+        padding: 2rem;
+        border-radius: 1rem;
+        max-width: 500px;
+        width: 90%;
+      ">
+        <h1 style="font-size: 3rem; margin-bottom: 1rem;">Game Over</h1>
+        <p id="final-score" style="font-size: 1.5rem; margin-bottom: 2rem;">Total score: 0</p>
+
+        <button onclick="restartGame()" style="
+          font-size: 1.2rem;
+          padding: 10px 20px;
+          margin: 0 10px;
+          border-radius: 8px;
+          cursor: pointer;
+        ">
+          Ricomincia
+        </button>
+
+        <a href="index.html">
+          <button style="
+            font-size: 1.2rem;
+            padding: 10px 20px;
+            margin: 10px 10px 0 10px;
+            border-radius: 8px;
+            cursor: pointer;
+          ">
+            Pagina iniziale
+          </button>
+        </a>
+      </div>
     </div>
+
   </div>
 
   <script src="data.js"></script>

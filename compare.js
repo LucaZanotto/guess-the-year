@@ -134,8 +134,14 @@ function checkAnswer(indexSelected) {
 }
 
 function showGameOver() {
+  console.log('showGameOver called, currentStreak:', currentStreak);
+
   document.getElementById('compare-mode').classList.add('hidden');
   document.getElementById('game-over').classList.remove('hidden');
+
+  document.getElementById('final-score').textContent = `Total score: ${currentStreak}`;
+
+  if (currentStreak > recordStreak) recordStreak = currentStreak;
 }
 
 function restartGame() {
@@ -143,8 +149,12 @@ function restartGame() {
   keepItem = null;
   keepCounter = 0;
   otherItem = null;
+  shownItems = [];
+  awaitingNext = false;
+
   document.getElementById('compare-score').textContent = 'Punteggio: 0';
   document.getElementById('game-over').classList.add('hidden');
   document.getElementById('compare-mode').classList.remove('hidden');
+
   loadNewPair();
 }
