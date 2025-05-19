@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Confronto - Time Machine Quiz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Modalità: Confronto</h1>
+
+    <div id="compare-mode">
+      <h2>Quale è più recente?</h2>
+      <div id="compare-cards"></div>
+      <p id="compare-score">Punteggio: 0</p>
+    </div>
+
+    <div id="game-over" class="hidden">
+      <h2>Hai perso!</h2>
+      <button onclick="restartGame()">Ricominica</button>
+      <a href="index.html"><button>Cambia modalità</button></a>
+    </div>
+  </div>
+
+  <script src="data.js"></script>
+  <script src="compare.js"></script>
+</body>
+</html>

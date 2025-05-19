@@ -1,0 +1,101 @@
+/* style.css */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+.container {
+  width: 90%;
+  max-width: 700px;
+  margin: 2rem auto;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 1rem;
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #005fa3;
+}
+
+.hidden {
+  display: none;
+}
+
+#compare-cards {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1rem;
+}
+
+.card {
+  width: 45%;
+  background-color: #e9f1ff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+#guess-card {
+  background-color: #fff7e0;
+  padding: 1rem;
+  margin: 1rem auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+input[type="number"] {
+  padding: 10px;
+  font-size: 1rem;
+  width: 100%;
+  max-width: 200px;
+  margin: 1rem 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+#compare-score, #guess-score {
+  font-weight: bold;
+  margin-top: 1rem;
+  color: #333;
+}
+
+.item-image {
+  max-width: 300px;
+  height: auto;
+  display: block;
+  margin: 1rem auto;
+  border-radius: 8px;
+}
+
+.round-feedback {
+  font-weight: bold;
+  margin-top: 0.5rem;
+  color: #2c7a2c;
+}

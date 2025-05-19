@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Indovina l'anno</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1 id="guess-round-title">Round 1/5</h1>
+
+
+    <div id="guess-mode">
+      <div id="guess-card"></div>
+
+      <div id="input-area">
+        <input type="number" id="year-input" placeholder="Inserisci l’anno..." />
+        <button id="submit-btn" onclick="submitGuess()">Invia</button>
+      </div>
+
+      <div id="score-area" class="hidden" style="margin-top:10px;">
+        <p id="round-score" class="round-feedback"></p>  
+        <p id="guess-score">Punteggio totale: 0</p>
+      </div>
+
+  <button id="next-round-btn" class="hidden" onclick="nextRound()" 
+          style="font-size: 20px; cursor: pointer; margin-top: 10px;">
+    ➡️
+  </button>
+</div>
+
+
+    <div id="turn-feedback" class="hidden">
+      <h2 id="turn-message"></h2>
+      <button onclick="continueGame()">Avanti</button>
+    </div>
+    
+    <div id="game-over" class="hidden">
+      <h2>Hai completato il gioco!</h2>
+      <p id="final-score"></p>
+      <button onclick="restartGame()">Ricominica</button>
+      <a href="index.html"><button>Cambia modalità</button></a>
+    </div>
+  </div>
+
+  <script src="data.js"></script>
+  <script src="guess.js"></script>
+</body>
+</html>
