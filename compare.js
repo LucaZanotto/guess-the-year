@@ -1,9 +1,9 @@
 let currentStreak = 0;
 let recordStreak = 0;
 
-let keepItem = null;     // Carta scelta da tenere (max 2 turni)
-let keepCounter = 0;     // Contatore turni consecutivi della keepItem
-let otherItem = null;    // Carta non scelta dal turno precedente
+let keepItem = null;
+let keepCounter = 0;
+let otherItem = null;
 
 let awaitingNext = false;
 let currentPair = [];
@@ -68,7 +68,6 @@ function loadNewPair() {
   currentPair = [item1, item2];
   awaitingNext = false;
 
-  // Aggiorna shownItems con i nuovi elementi, senza duplicati
   if (!shownItems.find(i => i.name === item1.name)) shownItems.push(item1);
   if (!shownItems.find(i => i.name === item2.name)) shownItems.push(item2);
 
@@ -113,18 +112,13 @@ function checkAnswer(indexSelected) {
   if (correct) {
     currentStreak++;
     document.getElementById('compare-score').textContent = `Punteggio: ${currentStreak}`;
-
-    // Aggiorna keepItem e keepCounter in base alla carta scelta
     if (keepItem && keepItem.name === selected.name) {
       keepCounter++;
     } else {
       keepItem = selected;
       keepCounter = 1;
     }
-
-    // Aggiorna otherItem in base alla carta non scelta
     otherItem = other;
-
     awaitingNext = true;
     setTimeout(loadNewPair, 2000);
   } else {
@@ -134,14 +128,36 @@ function checkAnswer(indexSelected) {
 }
 
 function showGameOver() {
-  console.log('showGameOver called, currentStreak:', currentStreak);
-
   document.getElementById('compare-mode').classList.add('hidden');
   document.getElementById('game-over').classList.remove('hidden');
-
   document.getElementById('final-score').textContent = `Total score: ${currentStreak}`;
 
-  if (currentStreak > recordStreak) recordStreak = currentStreak;
+  const range = getScoreRange(currentStreak);
+  const gifs = {
+    "0-3": "gif/gif_0-3/",
+    "4-8": "gif/gif_4-8/",
+    "9-15": "gif/gif_9-15/",
+    "16+": "gif/gif_16/"
+  };
+
+  const gifFolder = gifs[range];
+  const gifList = [
+    "1.gif", "2.gif", "3.gif", "4.gif", "5.gif", "6.gif", "7.gif", "8.gif", "9.gif"// Aggiungi qui i nomi reali delle gif
+  ];
+  const randomGif = gifList[Math.floor(Math.random() * gifList.length)];
+
+  document.getElementById('game-over-bg').src = `${gifFolder}${randomGif}`;
+
+  const fraseList = frasi[range];
+  const fraseRandom = fraseList[Math.floor(Math.random() * fraseList.length)];
+  document.getElementById('final-phrase').textContent = fraseRandom;
+}
+
+function getScoreRange(score) {
+  if (score <= 3) return "0-3";
+  if (score <= 8) return "4-8";
+  if (score <= 15) return "9-15";
+  return "16+";
 }
 
 function restartGame() {

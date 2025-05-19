@@ -29,17 +29,18 @@
       z-index: 10;
     ">
 
-      <!-- GIF di sfondo -->
-      <div id="game-over-bg" style="
+      <!-- GIF di sfondo come <img> -->
+      <img id="game-over-bg" src="" style="
         position: absolute;
         top: 0; left: 0;
-        width: 100%;
-        height: 100%;
-        background: url('gif/gif.gif') no-repeat center center;
-        background-size: contain;
-        filter: brightness(0.5);
+        width: 100vw;
+        height: 100vh;
+        object-fit: contain;
         z-index: -1;
-      "></div>
+        filter: brightness(0.5);
+        background-color: black;
+
+      " />
 
       <!-- Contenuto Game Over -->
       <div id="game-over-content" style="
@@ -49,8 +50,9 @@
         max-width: 500px;
         width: 90%;
       ">
-        <h1 style="font-size: 3rem; margin-bottom: 1rem;">Game Over</h1>
-        <p id="final-score" style="font-size: 1.5rem; margin-bottom: 2rem;">Total score: 0</p>
+        <h1 style="font-size: 3rem; margin-bottom: 1rem;">Game Over!</h1>
+        <p id="final-score" style="font-size: 1.5rem; margin-bottom: 1rem;">Total score: 0</p>
+        <p id="final-phrase" style="font-size: 1.2rem; margin-bottom: 2rem;"></p>
 
         <button onclick="restartGame()" style="
           font-size: 1.2rem;
@@ -79,6 +81,7 @@
   </div>
 
   <script src="data.js"></script>
+  <script src="frasi.js"></script>
   <script src="compare.js"></script>
 </body>
 </html>
