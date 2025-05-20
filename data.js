@@ -826,6 +826,137 @@ const data = [
     year: 1743,
     description: "French chemist known as the 'father of modern chemistry' for his discovery of oxygen's role in combustion.",
     image: "images/lavoisier.jpg"
+  },
+  {
+    name: "Foundation of Rome",
+    year: -753,
+    description: "Legendary founding of the city of Rome, marking the beginning of Roman civilization.",
+    image: "images/foundation_rome.webp"
+  },
+  {
+    name: "Battle of Marathon",
+    year: -490,
+    description: "Decisive Greek victory against Persia, symbol of Western resistance to invasion.",
+    image: "images/marathon.jpg"
+  },
+  {
+    name: "Assassination of Julius Caesar",
+    year: -44,
+    description: "Turning point that led to the fall of the Roman Republic and rise of the Empire.",
+    image: "images/caesar_assassination.jpg"
+  },
+  {
+    name: "Birth of Jesus Christ",
+    year: 0,
+    description: "Event marking the start of the Gregorian calendar and the foundation of Christianity.",
+    image: "images/birth_christ.jpg"
+  },
+  {
+    name: "Fall of the Western Roman Empire",
+    year: 476,
+    description: "Collapse of the Roman Empire in the West, traditionally marking the start of the Middle Ages.",
+    image: "images/fall_rome.jpg"
+  },
+  {
+    name: "Battle of Hastings",
+    year: 1066,
+    description: "Norman conquest of England, dramatically altering its culture and governance.",
+    image: "images/hastings.webp"
+  },
+  {
+    name: "Signing of the Magna Carta",
+    year: 1215,
+    description: "First document to limit the power of the English king, foundation for constitutional law.",
+    image: "images/magna_carta.jpg"
+  },
+  {
+    name: "Fall of Constantinople",
+    year: 1453,
+    description: "Ottoman capture of Constantinople, ending the Byzantine Empire and shifting power to the East.",
+    image: "images/constantinople.webp"
+  },
+  {
+    name: "Columbus Reaches America",
+    year: 1492,
+    description: "Christopher Columbus's voyage to the Americas, opening the Age of Exploration.",
+    image: "images/columbus.jpg"
+  },
+  {
+    name: "Defeat of the Spanish Armada",
+    year: 1588,
+    description: "England's victory over Spain marked the rise of British naval power.",
+    image: "images/spanish_armada.webp"
+  },
+  {
+    name: "English Civil War Begins",
+    year: 1642,
+    description: "Conflict between monarchy and Parliament leading to a brief republic under Cromwell.",
+    image: "images/english_civil_war.jpg"
+  },
+  {
+    name: "American Declaration of Independence",
+    year: 1776,
+    description: "Birth of the United States through a declaration of freedom from British rule.",
+    image: "images/declaration_independence.jpg"
+  },
+  {
+    name: "French Revolution",
+    year: 1789,
+    description: "Major social and political upheaval that ended absolute monarchy in France.",
+    image: "images/french_revolution.jpg"
+  },
+  {
+    name: "Battle of Waterloo",
+    year: 1815,
+    description: "Napoleon’s final defeat, ending his rule and reshaping Europe.",
+    image: "images/waterloo.jpg"
+  },
+  {
+    name: "American Civil War Begins",
+    year: 1861,
+    description: "Conflict over slavery and states' rights that defined the United States.",
+    image: "images/civil_war.jpg"
+  },
+  {
+    name: "Assassination of Archduke Franz Ferdinand",
+    year: 1914,
+    description: "Sparked World War I, one of the deadliest conflicts in history.",
+    image: "images/franz_ferdinand.jpg"
+  },
+  {
+    name: "Russian Revolution",
+    year: 1917,
+    description: "Overthrew the Tsarist regime and established the world’s first communist state.",
+    image: "images/russian_revolution.jpg"
+  },
+  {
+    name: "Stock Market Crash",
+    year: 1929,
+    description: "Triggered the Great Depression, a global economic crisis.",
+    image: "images/stock_crash.webp"
+  },
+  {
+    name: "D-Day Landings",
+    year: 1944,
+    description: "Allied invasion of Normandy that marked a turning point in World War II.",
+    image: "images/d_day.jpg"
+  },
+  {
+    name: "Atomic Bombing of Hiroshima",
+    year: 1945,
+    description: "First use of nuclear weapons in war, ending WWII and beginning the nuclear age.",
+    image: "images/hiroshima.jpg"
+  },
+  {
+    name: "Fall of the Berlin Wall",
+    year: 1989,
+    description: "Symbolic end of the Cold War and communist regimes in Eastern Europe.",
+    image: "images/berlin_wall.jpg"
+  },
+  {
+    name: "September 11 Attacks",
+    year: 2001,
+    description: "Terrorist attacks that reshaped global politics and security policies.",
+    image: "images/911.jpg"
   }
-
 ]
