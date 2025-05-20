@@ -1,681 +1,681 @@
 const data = [
   {
-    name: "Telefono cellulare",
+    name: "Mobile phone",
     year: 1973,
-    description: "Il primo prototipo fu sviluppato da Motorola.",
+    description: "The first prototype was developed by Motorola.",
     image: "images/telefonocellulare.jpg"
   },
   {
     name: "Internet",
     year: 1983,
-    description: "Anno di adozione ufficiale del protocollo TCP/IP.",
+    description: "Year of official adoption of the TCP/IP protocol.",
     image: "images/internet.jpg"
   },
   {
-    name: "Stampante 3D",
+    name: "3D Printer",
     year: 1984,
-    description: "Chuck Hull ha inventato la stereolitografia.",
+    description: "Chuck Hull invented stereolithography.",
     image: "images/stampante3d.jpg"
   },
   {
-    name: "Codice a barre",
+    name: "Barcode",
     year: 1974,
-    description: "Scansionato per la prima volta in un supermercato in Ohio.",
+    description: "Scanned for the first time in an Ohio supermarket.",
     image: "images/codiceabarre.jpg"
   },
   {
-    name: "Carta di credito",
+    name: "Credit card",
     year: 1950,
-    description: "La prima fu la Diners Club, introdotta negli USA.",
+    description: "The first was Diners Club, introduced in the USA.",
     image: "images/carta_di_credito.avif"
   },
   {
     name: "Post-it",
     year: 1977,
-    description: "Inventati da 3M come segnalibri removibili.",
+    description: "Invented by 3M as removable bookmarks.",
     image: "images/postit.webp"
   },
   {
     name: "Bluetooth",
     year: 1999,
-    description: "Standard wireless a corto raggio.",
+    description: "Short-range wireless standard.",
     image: "images/bluetooth.png"
   },
   {
-    name: "Pen drive (USB stick)",
+    name: "USB stick",
     year: 2000,
-    description: "Introdotta da IBM e Trek Technology.",
+    description: "Introduced by IBM and Trek Technology.",
     image: "images/pendrive.png"
   },
   {
     name: "Wikipedia",
     year: 2001,
-    description: "Lanciata come enciclopedia libera online.",
+    description: "Launched as a free online encyclopedia.",
     image: "images/wikipedia.png"
   },
   {
     name: "iPhone",
     year: 2007,
-    description: "Il primo smartphone lanciato da Apple.",
+    description: "The first smartphone launched by Apple.",
     image: "images/iphone.avif"
   },
   {
     name: "Netflix (streaming)",
     year: 2007,
-    description: "Da noleggio DVD a streaming on-demand.",
+    description: "From DVD rental to on-demand streaming.",
     image: "images/netflix.jpg"
   },
   {
     name: "Instagram",
     year: 2010,
-    description: "App di photo sharing nata come Burbn.",
+    description: "Photo sharing app originally called Burbn.",
     image: "images/instagram.avif"
   },
   {
     name: "Bitcoin",
     year: 2009,
-    description: "Il primo blocco della blockchain è stato minato da Satoshi Nakamoto.",
+    description: "The first blockchain block was mined by Satoshi Nakamoto.",
     image: "images/bitcoin.avif"
   },
   {
     name: "Tetris",
     year: 1984,
-    description: "Creato da Alexey Pajitnov in URSS.",
+    description: "Created by Alexey Pajitnov in the USSR.",
     image: "images/tetris.jpg"
   },
   {
     name: "Pac-Man",
     year: 1980,
-    description: "Creato da Namco, uno dei giochi arcade più famosi.",
+    description: "Created by Namco, one of the most famous arcade games.",
     image: "images/pacman.png"
   },
   {
     name: "YouTube",
     year: 2005,
-    description: "Il primo video caricato si intitola 'Me at the zoo'.",
+    description: "The first uploaded video is titled 'Me at the zoo'.",
     image: "images/youtube.webp"
   },
   {
-    name: "Fotocamera digitale",
+    name: "Digital camera",
     year: 1975,
-    description: "Kodak sviluppò il primo prototipo.",
+    description: "Kodak developed the first prototype.",
     image: "images/fotocamera_digitale.avif"
   },
   {
-    name: "Mouse del computer",
+    name: "Computer mouse",
     year: 1967,
-    description: "Douglas Engelbart creò il primo esemplare.",
+    description: "Douglas Engelbart created the first example.",
     image: "images/mouse.avif"
   },
   {
     name: "Google",
     year: 1998,
-    description: "Fondato da Larry Page e Sergey Brin.",
+    description: "Founded by Larry Page and Sergey Brin.",
     image: "images/google.webp"
   },
   {
     name: "WhatsApp",
     year: 2009,
-    description: "Creata da Jan Koum e Brian Acton.",
+    description: "Created by Jan Koum and Brian Acton.",
     image: "images/whatsapp.avif"
   },
   {
-    name: "Macchina a vapore",
+    name: "Steam engine",
     year: 1712,
-    description: "Thomas Newcomen costruì la prima macchina a vapore utilizzabile.",
+    description: "Thomas Newcomen built the first usable steam engine.",
     image: "images/macchina_vapore.webp"
   },
   {
-    name: "Stampa a caratteri mobili",
+    name: "Movable type printing",
     year: 1453,
-    description: "Inventata da Johannes Gutenberg, rivoluzionò la diffusione dei libri.",
+    description: "Invented by Johannes Gutenberg, revolutionized book distribution.",
     image: "images/stampa_mobili.png"
   },
   {
-    name: "Bussola",
+    name: "Compass",
     year: 1100,
-    description: "Inventata in Cina per la navigazione.",
+    description: "Invented in China for navigation.",
     image: "images/bussola.avif"
   },
   {
-    name: "Ruota",
+    name: "Wheel",
     year: -3500,
-    description: "Una delle prime grandi invenzioni meccaniche dell’umanità.",
+    description: "One of humanity’s earliest major mechanical inventions.",
     image: "images/ruota.jpg"
   },
   {
-    name: "Carta",
+    name: "Paper",
     year: 105,
-    description: "Inventata in Cina da Cai Lun.",
+    description: "Invented in China by Cai Lun.",
     image: "images/carta.webp"
   },
   {
-    name: "Lampadina elettrica",
-    year: 1879,
-    description: "Thomas Edison brevettò la prima commercialmente valida.",
-    image: "images/lampadina.jpg"
+	name: "Light bulb",
+	year: 1879,
+	description: "Thomas Edison patented the first commercially viable light bulb.",
+	image: "images/lampadina.jpg"
   },
   {
-    name: "Radio",
-    year: 1895,
-    description: "Guglielmo Marconi realizzò la prima trasmissione radio.",
-    image: "images/radio.avif"
+	name: "Radio",
+	year: 1895,
+	description: "Guglielmo Marconi made the first radio transmission.",
+	image: "images/radio.avif"
   },
   {
-    name: "Aereo",
-    year: 1903,
-    description: "I fratelli Wright effettuarono il primo volo controllato.",
-    image: "images/aereo.jpg"
+	name: "Airplane",
+	year: 1903,
+	description: "The Wright brothers made the first controlled flight.",
+	image: "images/aereo.jpg"
   },
   {
-    name: "Automobile",
-    year: 1886,
-    description: "Karl Benz costruì il primo veicolo a motore funzionante.",
-    image: "images/automobile.jpg"
+	name: "Automobile",
+	year: 1886,
+	description: "Karl Benz built the first functioning motor vehicle.",
+	image: "images/automobile.jpg"
   },
   {
-    name: "Penicillina",
-    year: 1928,
-    description: "Alexander Fleming scoprì il primo antibiotico.",
-    image: "images/penicillina.jpg"
+	name: "Penicillin",
+	year: 1928,
+	description: "Alexander Fleming discovered the first antibiotic.",
+	image: "images/penicillina.jpg"
   },
   {
-    name: "Telescrivente (telegrafo)",
-    year: 1837,
-    description: "Samuel Morse sviluppò il telegrafo elettrico.",
-    image: "images/telegrafo.webp"
+	name: "Telegraph",
+	year: 1837,
+	description: "Samuel Morse developed the electric telegraph.",
+	image: "images/telegrafo.webp"
   },
   {
-    name: "Telefono",
-    year: 1876,
-    description: "Alexander Graham Bell brevettò il telefono.",
-    image: "images/telefono.jpg"
+	name: "Telephone",
+	year: 1876,
+	description: "Alexander Graham Bell patented the telephone.",
+	image: "images/telefono.jpg"
   },
   {
-    name: "Televisione",
-    year: 1927,
-    description: "Philo Farnsworth realizzò la prima dimostrazione.",
-    image: "images/televisione.jpg"
+	name: "Television",
+	year: 1927,
+	description: "Philo Farnsworth demonstrated the first television.",
+	image: "images/televisione.jpg"
   },
   {
-    name: "Microscopio",
-    year: 1590,
-    description: "Zacharias Janssen ne sviluppò uno dei primi esemplari.",
-    image: "images/microscopio.avif"
+	name: "Microscope",
+	year: 1590,
+	description: "Zacharias Janssen developed one of the first microscopes.",
+	image: "images/microscopio.avif"
   },
   {
-    name: "Forno a microonde",
-    year: 1945,
-    description: "Percy Spencer scoprì per caso la cottura a microonde.",
-    image: "images/microonde.jpg"
+	name: "Microwave oven",
+	year: 1945,
+	description: "Percy Spencer discovered microwave cooking by accident.",
+	image: "images/microonde.jpg"
   },
   {
-    name: "Orologio meccanico",
-    year: 1300,
-    description: "Usato inizialmente nei monasteri per segnare le ore.",
-    image: "images/orologio_meccanico.jpg"
+	name: "Mechanical clock",
+	year: 1300,
+	description: "Originally used in monasteries to mark the hours.",
+	image: "images/orologio_meccanico.jpg"
   },
   {
-    name: "Paracadute",
-    year: 1783,
-    description: "Louis-Sébastien Lenormand compì il primo salto documentato.",
-    image: "images/paracadute.jpg"
+	name: "Parachute",
+	year: 1783,
+	description: "Louis-Sébastien Lenormand made the first documented jump.",
+	image: "images/paracadute.jpg"
   },
   {
-    name: "Sottomarino",
-    year: 1620,
-    description: "Cornelis Drebbel costruì il primo sottomarino funzionante.",
-    image: "images/sottomarino.jpg"
+	name: "Submarine",
+	year: 1620,
+	description: "Cornelis Drebbel built the first functional submarine.",
+	image: "images/sottomarino.jpg"
   },
   {
-    name: "Razzo spaziale",
-    year: 1926,
-    description: "Robert Goddard lanciò il primo razzo a propellente liquido.",
-    image: "images/razzo.webp"
+	name: "Rocket",
+	year: 1926,
+	description: "Robert Goddard launched the first liquid-fuel rocket.",
+	image: "images/razzo.webp"
   },
   {
-    name: "Treno a vapore",
-    year: 1804,
-    description: "Richard Trevithick costruì la prima locomotiva a vapore.",
-    image: "images/treno_vapore.jpg"
+	name: "Steam train",
+	year: 1804,
+	description: "Richard Trevithick built the first steam locomotive.",
+	image: "images/treno_vapore.jpg"
   },
   {
-    name: "Fotografia",
-    year: 1826,
-    description: "Nicéphore Niépce realizzò la prima fotografia permanente.",
-    image: "images/fotografia.jpg"
+	name: "Photography",
+	year: 1826,
+	description: "Nicéphore Niépce took the first permanent photograph.",
+	image: "images/fotografia.jpg"
   },
   {
-    name: "Velcro",
-    year: 1941,
-    description: "George de Mestral inventò il sistema ispirandosi ai rovi.",
-    image: "images/velcro.jpg"
+	name: "Velcro",
+	year: 1941,
+	description: "George de Mestral invented the system inspired by burrs.",
+	image: "images/velcro.jpg"
   },
   {
-    name: "Bicicletta",
-    year: 1817,
-    description: "Karl Drais creò la draisina, prototipo della bici moderna.",
-    image: "images/bicicletta.webp"
+	name: "Bicycle",
+	year: 1817,
+	description: "Karl Drais created the draisine, prototype of the modern bike.",
+	image: "images/bicicletta.webp"
   },
   {
-    name: "Aspirapolvere",
-    year: 1901,
-    description: "Hubert Cecil Booth inventò il primo aspirapolvere elettrico.",
-    image: "images/aspirapolvere.jpg"
+	name: "Vacuum cleaner",
+	year: 1901,
+	description: "Hubert Cecil Booth invented the first electric vacuum cleaner.",
+	image: "images/aspirapolvere.jpg"
   },
   {
-    name: "Turbina a gas",
-    year: 1939,
-    description: "Sir Frank Whittle sviluppò il primo motore a reazione operativo.",
-    image: "images/turbina.jpg"
+	name: "Gas turbine",
+	year: 1939,
+	description: "Sir Frank Whittle developed the first operational jet engine.",
+	image: "images/turbina.jpg"
   },
   {
-    name: "Laser",
-    year: 1960,
-    description: "Theodore Maiman costruì il primo laser funzionante.",
-    image: "images/laser.jpg"
+	name: "Laser",
+	year: 1960,
+	description: "Theodore Maiman built the first working laser.",
+	image: "images/laser.jpg"
   },
   {
-    name: "Cerniera lampo (zip)",
-    year: 1913,
-    description: "Gideon Sundback perfezionò il design moderno.",
-    image: "images/cerniera.jpg"
+	name: "Zipper",
+	year: 1913,
+	description: "Gideon Sundback perfected the modern design.",
+	image: "images/cerniera.jpg"
   },
   {
-    name: "Carta igienica",
-    year: 1857,
-    description: "Joseph Gayetty la commercializzò per primo negli USA.",
-    image: "images/cartaigienica.jpg"
+	name: "Toilet paper",
+	year: 1857,
+	description: "Joseph Gayetty was the first to market it in the USA.",
+	image: "images/cartaigienica.jpg"
   },
   {
-    name: "Occhiali",
-    year: 1286,
-    description: "Inventati in Italia per correggere la vista.",
-    image: "images/occhiali.webp"
+	name: "Eyeglasses",
+	year: 1286,
+	description: "Invented in Italy to correct vision.",
+	image: "images/occhiali.webp"
   },
   {
-    name: "Forchetta",
-    year: 1000,
-    description: "Originaria di Bisanzio, adottata lentamente in Europa.",
-    image: "images/forchetta.jpg"
+	name: "Fork",
+	year: 1000,
+	description: "Originated in Byzantium, gradually adopted in Europe.",
+	image: "images/forchetta.jpg"
   },
   {
-    name: "Autolavaggio automatico",
-    year: 1946,
-    description: "Introdotto negli USA, rivoluzionò la pulizia delle auto.",
-    image: "images/autolavaggio.jpg"
+	name: "Automatic car wash",
+	year: 1946,
+	description: "Introduced in the USA, revolutionized car cleaning.",
+	image: "images/autolavaggio.jpg"
   },
   {
-    name: "Cinematografo",
-    year: 1895,
-    description: "I fratelli Lumière proiettarono il primo film pubblico.",
-    image: "images/cinematografo.jpg"
+	name: "Cinematograph",
+	year: 1895,
+	description: "The Lumière brothers projected the first public film.",
+	image: "images/cinematografo.jpg"
   },
   {
-    name: "Climatizzatore",
-    year: 1902,
-    description: "Willis Carrier progettò il primo sistema moderno.",
-    image: "images/climatizzatore.jpg"
+	name: "Air conditioner",
+	year: 1902,
+	description: "Willis Carrier designed the first modern system.",
+	image: "images/climatizzatore.jpg"
   },
   {
-    name: "GPS",
-    year: 1978,
-    description: "Sviluppato inizialmente per scopi militari dagli USA.",
-    image: "images/gps.jpg"
+	name: "GPS",
+	year: 1978,
+	description: "Initially developed for military purposes by the USA.",
+	image: "images/gps.jpg"
   },
   {
-    name: "Microchip",
-    year: 1958,
-    description: "Jack Kilby ne sviluppò il primo prototipo.",
-    image: "images/microchip.jpg"
+	name: "Microchip",
+	year: 1958,
+	description: "Jack Kilby developed the first prototype.",
+	image: "images/microchip.jpg"
   },
   {
-    name: "Contenitore Tupperware",
-    year: 1946,
-    description: "Earl Tupper introdusse la plastica flessibile sigillante.",
-    image: "images/tupperware.jpg"
+	name: "Tupperware container",
+	year: 1946,
+	description: "Earl Tupper introduced flexible sealing plastic.",
+	image: "images/tupperware.jpg"
   },
   {
-    name: "Caffettiera moka",
-    year: 1933,
-    description: "Inventata da Alfonso Bialetti, è un’icona italiana.",
-    image: "images/moka.webp"
+	name: "Moka coffee pot",
+	year: 1933,
+	description: "Invented by Alfonso Bialetti, an Italian icon.",
+	image: "images/moka.webp"
   },
   {
-    name: "Zanzariera",
-    year: -500,
-    description: "Usata già nell’antica Cina e in Egitto per proteggere dal malaria.",
-    image: "images/zanzariera.jpg"
+	name: "Mosquito net",
+	year: -500,
+	description: "Used since ancient China and Egypt to protect from malaria.",
+	image: "images/zanzariera.jpg"
   },
   {
-    name: "Pila elettrica",
-    year: 1800,
-    description: "Alessandro Volta inventò la prima fonte di energia elettrica continua.",
-    image: "images/pila.avif"
+	name: "Electric battery",
+	year: 1800,
+	description: "Alessandro Volta invented the first continuous electric power source.",
+	image: "images/pila.avif"
   },
   {
-    name: "Semaforo",
-    year: 1868,
-    description: "Il primo fu installato a Londra con segnalazioni a gas.",
-    image: "images/semaforo.avif"
+	name: "Traffic light",
+	year: 1868,
+	description: "The first was installed in London with gas signals.",
+	image: "images/semaforo.avif"
   },
   {
-    name: "Droni",
-    year: 1935,
-    description: "Usati inizialmente come bersagli volanti per l’addestramento.",
-    image: "images/drone.jpg"
+	name: "Drones",
+	year: 1935,
+	description: "Initially used as flying targets for training.",
+	image: "images/drone.jpg"
   },
   {
-    name: "Forno elettrico",
-    year: 1891,
-    description: "Brevetto di Thomas Hadaway, rese la cucina più semplice.",
-    image: "images/forno_elettrico.jpg"
+	name: "Electric oven",
+	year: 1891,
+	description: "Patented by Thomas Hadaway, simplified cooking.",
+	image: "images/forno_elettrico.jpg"
   },
   {
-    name: "Spazzolino da denti",
-    year: 1498,
-    description: "Inventato in Cina con setole di maiale.",
-    image: "images/spazzolino.jpg"
+	name: "Toothbrush",
+	year: 1498,
+	description: "Invented in China with pig bristles.",
+	image: "images/spazzolino.jpg"
   },
   {
-    name: "Confucio",
-    year: -551,
-    description: "Filosofo cinese, le cui idee etiche e politiche plasmarono per secoli l'Asia orientale.",
-    image: "images/confucio.jpg"
+	name: "Confucius",
+	year: -551,
+	description: "Chinese philosopher whose ethical and political ideas shaped East Asia for centuries.",
+	image: "images/confucio.jpg"
   },
   {
-    name: "Aristotele",
-    year: -384,
-    description: "Filosofo greco, allievo di Platone e maestro di Alessandro Magno; fondatore del liceo di Atene.",
-    image: "images/aristotele.jpg"
+	name: "Aristotle",
+	year: -384,
+	description: "Greek philosopher, student of Plato and teacher of Alexander the Great; founder of the Lyceum.",
+	image: "images/aristotele.jpg"
   },
   {
-    name: "Alessandro Magno",
-    year: -356,
-    description: "Condottiero macedone che creò uno dei più vasti imperi del mondo antico.",
-    image: "images/alessandro_magno.jpg"
+	name: "Alexander the Great",
+	year: -356,
+	description: "Macedonian commander who created one of the largest empires of the ancient world.",
+	image: "images/alessandro_magno.jpg"
   },
   {
-    name: "Giulio Cesare",
-    year: -100,
-    description: "Generale e statista romano, preparò la trasformazione di Roma da repubblica a impero.",
-    image: "images/giulio_cesare.jpg"
+	name: "Julius Caesar",
+	year: -100,
+	description: "Roman general and statesman, paved the way for the transformation from Republic to Empire.",
+	image: "images/giulio_cesare.jpg"
   },
   {
-    name: "Cleopatra VII",
-    year: -69,
-    description: "Ultima regina dell’Egitto tolemaico, celebre per acume politico e alleanze con Roma.",
-    image: "images/cleopatra.jpg"
+	name: "Cleopatra VII",
+	year: -69,
+	description: "Last queen of Ptolemaic Egypt, known for her political acumen and alliances with Rome.",
+	image: "images/cleopatra.jpg"
   },
   {
-    name: "Boudica",
-    year: 25,
-    description: "Regina degli Iceni, guidò la rivolta contro il dominio romano in Britannia.",
-    image: "images/boudica.webp"
+	name: "Boudica",
+	year: 25,
+	description: "Queen of the Iceni, led a revolt against Roman rule in Britain.",
+	image: "images/boudica.webp"
   },
   {
-    name: "Marco Aurelio",
-    year: 121,
-    description: "Imperatore romano e filosofo stoico, autore dei \"Colloqui con sé stesso\".",
-    image: "images/marco_aurelio.jpg"
+	name: "Marcus Aurelius",
+	year: 121,
+	description: "Roman emperor and Stoic philosopher, author of 'Meditations'.",
+	image: "images/marco_aurelio.jpg"
   },
   {
-    name: "Carlo Magno",
-    year: 742,
-    description: "Re dei Franchi e primo Imperatore del Sacro Romano Impero, promotore della rinascita carolingia.",
-    image: "images/carlo_magno.jpg"
+	name: "Charlemagne",
+	year: 742,
+	description: "King of the Franks and first Emperor of the Holy Roman Empire, promoter of the Carolingian Renaissance.",
+	image: "images/carlo_magno.jpg"
   },
   {
-    name: "Guglielmo il Conquistatore",
-    year: 1028,
-    description: "Duca di Normandia che conquistò l’Inghilterra nel 1066, cambiandone per sempre la storia.",
-    image: "images/guglielmo_conquistatore.jpg"
+	name: "William the Conqueror",
+	year: 1028,
+	description: "Duke of Normandy who conquered England in 1066, forever changing its history.",
+	image: "images/guglielmo_conquistatore.jpg"
   },
   {
-    name: "Eleonora d’Aquitania",
-    year: 1122,
-    description: "Una delle donne più influenti del Medioevo, regina di Francia e poi d’Inghilterra.",
-    image: "images/eleonora_aquitania.jpg"
+	name: "Eleanor of Aquitaine",
+	year: 1122,
+	description: "One of the most influential women of the Middle Ages, queen of France and then of England.",
+	image: "images/eleonora_aquitania.jpg"
   },
   {
-    name: "Gengis Khan",
-    year: 1162,
-    description: "Fondatore dell’Impero mongolo, creò il più vasto dominio contiguo della storia.",
-    image: "images/gengis_khan.jpg"
+	name: "Genghis Khan",
+	year: 1162,
+	description: "Founder of the Mongol Empire, created the largest contiguous empire in history.",
+	image: "images/gengis_khan.jpg"
   },
   {
-    name: "Dante Alighieri",
-    year: 1265,
-    description: "Poeta fiorentino, autore della \"Divina Commedia\", pilastro della lingua italiana.",
-    image: "images/dante.webp"
+	name: "Dante Alighieri",
+	year: 1265,
+	description: "Florentine poet, author of the 'Divine Comedy', a pillar of the Italian language.",
+	image: "images/dante.webp"
   },
   {
-    name: "Giovanna d’Arco",
+    name: "Joan of Arc",
     year: 1412,
-    description: "Eroina francese della guerra dei Cent’anni, venerata come santa.",
+    description: "French heroine of the Hundred Years' War, venerated as a saint.",
     image: "images/giovanna_darco.jpg"
   },
   {
     name: "Leonardo da Vinci",
     year: 1452,
-    description: "Artista e inventore rinascimentale, simbolo del genio universale.",
+    description: "Renaissance artist and inventor, symbol of universal genius.",
     image: "images/leonardo.jpg"
   },
   {
     name: "Michelangelo Buonarroti",
     year: 1475,
-    description: "Scultore, pittore e architetto, autore del David e della Cappella Sistina.",
+    description: "Sculptor, painter, and architect, author of the David and the Sistine Chapel.",
     image: "images/michelangelo.jpg"
   },
   {
-    name: "Martin Lutero",
+    name: "Martin Luther",
     year: 1483,
-    description: "Teologo tedesco, iniziatore della Riforma protestante con le 95 tesi.",
+    description: "German theologian, initiator of the Protestant Reformation with the 95 Theses.",
     image: "images/martin_lutero.jpg"
   },
   {
-    name: "Suleiman il Magnifico",
+    name: "Suleiman the Magnificent",
     year: 1494,
-    description: "Sultano ottomano al culmine del potere imperiale, promotore di riforme giuridiche.",
+    description: "Ottoman sultan at the height of imperial power, promoter of legal reforms.",
     image: "images/suleiman.jpg"
   },
   {
     name: "Galileo Galilei",
     year: 1564,
-    description: "Padre della scienza moderna, sostenitore dell’eliocentrismo con osservazioni telescopiche.",
+    description: "Father of modern science, supporter of heliocentrism with telescopic observations.",
     image: "images/galileo.jpg"
   },
   {
     name: "Isaac Newton",
     year: 1643,
-    description: "Fisico inglese, formulò le leggi della gravitazione universale e del moto.",
+    description: "English physicist, formulated the laws of universal gravitation and motion.",
     image: "images/newton.jpg"
   },
   {
-    name: "Pietro il Grande",
+    name: "Peter the Great",
     year: 1672,
-    description: "Zar che modernizzò la Russia, fondò San Pietroburgo e ampliò i confini imperiali.",
+    description: "Tsar who modernized Russia, founded Saint Petersburg, and expanded imperial borders.",
     image: "images/pietro_grande.jpg"
   },
   {
     name: "Voltaire",
     year: 1694,
-    description: "Filosofo illuminista francese, difensore della tolleranza e della libertà di pensiero.",
+    description: "French Enlightenment philosopher, defender of tolerance and freedom of thought.",
     image: "images/voltaire.jpg"
   },
   {
-    name: "Caterina II di Russia",
+    name: "Catherine II of Russia",
     year: 1729,
-    description: "Imperatrice illuminata, estese e riformò l’Impero russo nel XVIII secolo.",
+    description: "Enlightened empress, expanded and reformed the Russian Empire in the 18th century.",
     image: "images/caterina_grande.jpg"
   },
   {
     name: "George Washington",
     year: 1732,
-    description: "Comandante della rivoluzione americana e primo presidente degli Stati Uniti.",
+    description: "Commander of the American Revolution and first president of the United States.",
     image: "images/george_washington.jpg"
   },
   {
     name: "Wolfgang Amadeus Mozart",
     year: 1756,
-    description: "Compositore austriaco, prodigio della musica classico-viennese.",
+    description: "Austrian composer, prodigy of Viennese classical music.",
     image: "images/mozart.jpg"
   },
   {
-    name: "Napoleone Bonaparte",
+    name: "Napoleon Bonaparte",
     year: 1769,
-    description: "Generale corso che divenne imperatore, protagonista delle guerre napoleoniche.",
+    description: "Corsican general who became emperor, protagonist of the Napoleonic Wars.",
     image: "images/napoleone.jpg"
   },
   {
     name: "Jane Austen",
     year: 1775,
-    description: "Scrittrice inglese, autrice di romanzi realistici come \"Orgoglio e pregiudizio\".",
+    description: "English novelist, author of realistic novels like 'Pride and Prejudice'.",
     image: "images/jane_austen.jpg"
   },
   {
     name: "Abraham Lincoln",
     year: 1809,
-    description: "16° presidente USA, guidò il Paese durante la guerra civile e abolì la schiavitù.",
+    description: "16th president of the USA, led the country during the Civil War",
     image: "images/lincoln.jpg"
   },
   {
     name: "Ada Lovelace",
     year: 1815,
-    description: "Matematica inglese, considerata la prima programmatrice di computer.",
+    description: "English mathematician, considered the first computer programmer.",
     image: "images/ada_lovelace.jpg"
   },
   {
     name: "Florence Nightingale",
     year: 1820,
-    description: "Fondatrice dell’infermieristica moderna, rivoluzionò l’assistenza sanitaria.",
+    description: "Founder of modern nursing, revolutionized healthcare.",
     image: "images/florence_nightingale.jpg"
   },
   {
     name: "Nikola Tesla",
     year: 1856,
-    description: "Inventore serbo-statunitense, pioniere della corrente alternata e di numerose innovazioni elettriche.",
+    description: "Serbo-American inventor, pioneer of alternating current and numerous electrical innovations.",
     image: "images/tesla.jpg"
   },
   {
     name: "Marie Curie",
     year: 1867,
-    description: "Fisica e chimica, prima donna a vincere un Nobel e l’unica a vincerne due in discipline diverse.",
+    description: "Physicist and chemist, first",
     image: "images/marie_curie.jpg"
   },
   {
     name: "Mahatma Gandhi",
     year: 1869,
-    description: "Leader del movimento indipendentista indiano, simbolo della nonviolenza.",
+    description: "Leader of the Indian independence movement, symbol of nonviolence.",
     image: "images/gandhi.jpg"
   },
   {
     name: "Albert Einstein",
     year: 1879,
-    description: "Fisico teorico tedesco, noto per la teoria della relatività e il premio Nobel per l’effetto fotoelettrico.",
+    description: "German theoretical physicist, known for the theory of relativity and Nobel Prize for the photoelectric effect.",
     image: "images/einstein.jpg"
   },
   {
     name: "Virginia Woolf",
     year: 1882,
-    description: "Scrittrice e saggista britannica, figura centrale del modernismo letterario.",
+    description: "British writer and essayist, central figure of literary modernism.",
     image: "images/virginia_woolf.jpg"
   },
   {
     name: "Winston Churchill",
     year: 1874,
-    description: "Primo ministro britannico durante la Seconda guerra mondiale, noto per la sua oratoria.",
+    description: "British Prime Minister during World War II, known for his oratory.",
     image: "images/churchill.jpg"
   },
   {
     name: "Pablo Picasso",
     year: 1881,
-    description: "Pittore spagnolo, cofondatore del cubismo e rivoluzionario dell’arte del XX secolo.",
+    description: "Spanish painter, co-founder of Cubism and revolutionary of 20th-century art.",
     image: "images/picasso.jpg"
   },
   {
     name: "Franklin D. Roosevelt",
     year: 1882,
-    description: "Presidente degli Stati Uniti durante la Grande Depressione e la Seconda guerra mondiale.",
+    description: "President of the United States during the Great Depression and World War II.",
     image: "images/roosevelt.jpg"
   },
   {
     name: "Anna Frank",
     year: 1929,
-    description: "Giovane ebrea tedesca il cui diario è divenuto simbolo della persecuzione nazista.",
+    description: "Young German Jewish girl whose diary has become a symbol of Nazi persecution.",
     image: "images/anna_frank.jpg"
   },
   {
     name: "Alan Turing",
     year: 1912,
-    description: "Matematico e pioniere dell’informatica, contribuì alla decifrazione di Enigma.",
+    description: "Mathematician and pioneer of computer science, contributed to the decryption of Enigma.",
     image: "images/alan_turing.jpg"
   },
   {
     name: "Rosa Parks",
     year: 1913,
-    description: "Attivista afroamericana, figura centrale nella lotta per i diritti civili negli USA.",
+    description: "African American activist, key figure in the civil rights movement in the USA.",
     image: "images/rosa_parks.jpg"
   },
   {
     name: "Nelson Mandela",
     year: 1918,
-    description: "Leader sudafricano contro l’apartheid e primo presidente nero del Sudafrica.",
+    description: "South African leader against apartheid and first black president of South Africa.",
     image: "images/mandela.jpg"
   },
   {
     name: "John F. Kennedy",
     year: 1917,
-    description: "35º presidente degli Stati Uniti, simbolo di una nuova generazione di leader.",
+    description: "35th President of the United States, symbol of a new generation of leaders.",
     image: "images/kennedy.jpg"
   },
   {
     name: "Yuri Gagarin",
     year: 1934,
-    description: "Cosmonauta sovietico, primo uomo nello spazio nel 1961.",
+    description: "Soviet cosmonaut, first man in space in 1961.",
     image: "images/gagarin.jpg"
   },
   {
     name: "Martin Luther King Jr.",
     year: 1929,
-    description: "Guida del movimento per i diritti civili negli Stati Uniti, premio Nobel per la pace.",
+    description: "Leader of the civil rights movement in the United States, Nobel Peace Prize laureate.",
     image: "images/mlk.jpg"
   },
   {
     name: "Stephen Hawking",
     year: 1942,
-    description: "Fisico teorico, noto per i suoi studi sui buchi neri e la cosmologia.",
+    description: "Theoretical physicist, known for his studies on black holes and cosmology.",
     image: "images/hawking.jpg"
   },
   {
     name: "Margaret Thatcher",
     year: 1925,
-    description: "Prima donna a diventare primo ministro del Regno Unito, soprannominata 'la Lady di Ferro'.",
+    description: "First woman to become Prime Minister of the United Kingdom, nicknamed 'The Iron Lady'.",
     image: "images/thatcher.jpg"
   },
   {
     name: "Malala Yousafzai",
     year: 1997,
-    description: "Attivista pakistana per l’istruzione femminile, la più giovane vincitrice del premio Nobel per la pace.",
+    description: "Pakistani activist for female education, youngest Nobel Peace Prize laureate.",
     image: "images/malala.jpg"
   },
   {
     name: "Barack Obama",
     year: 1961,
-    description: "44º presidente degli Stati Uniti, primo afroamericano a ricoprire la carica.",
+    description: "44th President of the United States, first African American to hold the office.",
     image: "images/obama.webp"
   },
   {
     name: "Elon Musk",
     year: 1971,
-    description: "Imprenditore e innovatore sudafricano-statunitense, fondatore di SpaceX, Tesla e cofondatore di Neuralink.",
+    description: "South African-American entrepreneur and innovator, founder of SpaceX, Tesla, and co-founder of Neuralink.",
     image: "images/elon_musk.jpg"
   },
   {
     name: "Greta Thunberg",
     year: 2003,
-    description: "Attivista svedese per il clima, simbolo della mobilitazione giovanile contro il cambiamento climatico.",
+    description: "Swedish climate activist, symbol of youth mobilization against climate change.",
     image: "images/greta_thunberg.jpg"
   }
 
-];
+]
