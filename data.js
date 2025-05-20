@@ -676,6 +676,156 @@ const data = [
     year: 2003,
     description: "Swedish climate activist, symbol of youth mobilization against climate change.",
     image: "images/greta_thunberg.jpg"
+  },
+  {
+    name: "Simón Bolívar",
+    year: 1783,
+    description: "South American revolutionary leader who liberated several countries from Spanish rule.",
+    image: "images/bolivar.jpg"
+  },
+  {
+    name: "Harriet Tubman",
+    year: 1822,
+    description: "American abolitionist who led enslaved people to freedom via the Underground Railroad.",
+    image: "images/tubman.webp"
+  },
+  {
+    name: "Frida Kahlo",
+    year: 1907,
+    description: "Mexican painter known for her self-portraits and exploration of identity and suffering.",
+    image: "images/kahlo.jpg"
+  },
+  {
+    name: "Otto von Bismarck",
+    year: 1815,
+    description: "German statesman who unified Germany and served as its first chancellor.",
+    image: "images/bismarck.jpg"
+  },
+  {
+    name: "Sojourner Truth",
+    year: 1797,
+    description: "African-American abolitionist and women’s rights activist, known for her speeches on equality.",
+    image: "images/truth.jpg"
+  },
+  {
+    name: "Hammurabi",
+    year: -1810,
+    description: "Babylonian king known for one of the earliest legal codes in history.",
+    image: "images/hammurabi.jpg"
+  },
+  {
+    name: "Karl Marx",
+    year: 1818,
+    description: "German philosopher and economist, co-author of 'The Communist Manifesto'.",
+    image: "images/marx.jpg"
+  },
+  {
+    name: "Emmeline Pankhurst",
+    year: 1858,
+    description: "British political activist and leader of the suffragette movement for women's voting rights.",
+    image: "images/pankhurst.jpg"
+  },
+  {
+    name: "Che Guevara",
+    year: 1928,
+    description: "Argentinian revolutionary who played a key role in the Cuban Revolution.",
+    image: "images/che_guevara.avif"
+  },
+  {
+    name: "Alexander Fleming",
+    year: 1881,
+    description: "Scottish biologist who discovered penicillin, revolutionizing medicine.",
+    image: "images/fleming.jpg"
+  },
+  {
+    name: "Mahatma Phule",
+    year: 1827,
+    description: "Indian social reformer who worked for the education and rights of lower castes and women.",
+    image: "images/phule.jpg"
+  },
+  {
+    name: "Hypatia",
+    year: 360,
+    description: "Greek philosopher, mathematician, and astronomer, one of the first known female scholars.",
+    image: "images/hypatia.jpg"
+  },
+  {
+    name: "Lech Wałęsa",
+    year: 1943,
+    description: "Polish labor leader and Nobel Peace Prize laureate, key figure in ending communism in Poland.",
+    image: "images/walesa.jpg"
+  },
+  {
+    name: "Benazir Bhutto",
+    year: 1953,
+    description: "First woman to lead a Muslim-majority nation, Prime Minister of Pakistan.",
+    image: "images/bhutto.jpg"
+  },
+  {
+    name: "Hatshepsut",
+    year: -1507,
+    description: "One of the few female pharaohs of ancient Egypt, known for her prosperous reign.",
+    image: "images/hatshepsut.jpg"
+  },
+  {
+    name: "Ada Yonath",
+    year: 1939,
+    description: "Israeli crystallographer and Nobel laureate for her work on the structure of ribosomes.",
+    image: "images/yonath.webp"
+  },
+  {
+    name: "Akbar the Great",
+    year: 1542,
+    description: "Mughal emperor known for his military conquests and policy of religious tolerance.",
+    image: "images/akbar.jpg"
+  },
+  {
+    name: "Tsai Ing-wen",
+    year: 1956,
+    description: "First female president of Taiwan, known for progressive leadership and democratic values.",
+    image: "images/tsai.jpg"
+  },
+  {
+    name: "Rachel Carson",
+    year: 1907,
+    description: "American marine biologist and author of 'Silent Spring', key figure in the environmental movement.",
+    image: "images/carson.jpg"
+  },
+  {
+    name: "Desmond Tutu",
+    year: 1931,
+    description: "South African bishop and human rights activist who opposed apartheid.",
+    image: "images/tutu.jpg"
+  },
+  {
+    name: "Tenzing Norgay",
+    year: 1914,
+    description: "Nepalese mountaineer who, with Edmund Hillary, was the first to summit Mount Everest.",
+    image: "images/norgay.jpg"
+  },
+  {
+    name: "Cleisthenes",
+    year: -570,
+    description: "Athenian reformer known as the 'father of democracy' for his political innovations.",
+    image: "images/cleisthenes.webp"
+  },
+  {
+    name: "Marsha P. Johnson",
+    year: 1945,
+    description: "African-American LGBTQ+ activist and key figure in the Stonewall uprising.",
+    image: "images/johnson.jpg"
+  },
+  {
+    name: "Tokugawa Ieyasu",
+    year: 1543,
+    description: "Founder of the Tokugawa shogunate, which ruled Japan for over 250 years.",
+    image: "images/ieyasu.jpg"
+  },
+  {
+    name: "Antoine Lavoisier",
+    year: 1743,
+    description: "French chemist known as the 'father of modern chemistry' for his discovery of oxygen's role in combustion.",
+    image: "images/lavoisier.jpg"
   }
 
 ]
